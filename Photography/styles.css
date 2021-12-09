@@ -1,0 +1,188 @@
+
+
+@import url( 'https://fonts.gooleapis.com/css2?family=montserrat:itale,wght@0,300;1,300;1600&display=swap'
+);
+
+
+body { height: auto;
+  background-color:white;
+}
+
+	h1 {
+  color:black;
+  text-align: center;
+}
+	header{
+	background-color:transparent;
+	opacity: 10;
+
+	font-family:serif;}
+
+
+main{ background-color:white;
+
+	padding-left:30px;
+
+ padding-right: 30px;
+
+margin-left:170px;
+ 
+padding-top:10px;
+
+padding-bottom:20px;
+
+
+ }
+
+
+h1{ 
+	line-height:100%;
+
+	background-image:url(img/flowers-6206279_1920.jp);
+	background-repeat:no-repeat;
+	background-position:right;
+	padding-left:50px;
+	height: 72px;
+	
+	margin-bottom:auto;
+	
+}
+h2{ background-color:#314455;
+	
+	background-repeat:no-repeat;
+	background-position:right;
+	padding-left:50px;
+	height: 72px;
+	margin-bottom:auto;
+	
+}
+.home-hero{ 
+	
+
+	background-image:url(images/sea-2361247.jpg);
+
+		height: 400px;
+		background-size: cover;
+		background-position: center;
+		padding: 10px 10px 10px 30px ;
+	
+} 
+
+
+body{ 
+	font-family:'montserrat',cursive;
+	font-size: 1.5em;
+}
+
+nav ul{
+	list-style-type: none;
+}
+nav li {
+	display: initial;
+}
+nav a {
+	text-decoration: none;
+	padding-right: 30px;
+	color: black;
+}
+nav a link {color: #008000;
+
+}
+nav a  visited {
+	color: pink;
+}
+nav a hover{ color:green;
+
+}
+nav a  active{
+	color: #008000;
+
+}
+
+nav{
+	background-color:lightgray;}
+
+
+
+
+}
+
+
+input,textarea{margin-bottom: 1em;
+	display: block;
+	margin-left: 10em;
+background-color: lightgray;
+}
+
+footer{ background-color:lightgray;
+	font-size: 1em;
+	font-style:;
+    text-align: center;
+    
+   }
+
+
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+
+
+
+
+
+
+	/*for Tablets*/
+@media only screen and ( max-with: 1024){
+	h1{
+		font-size: 2em ;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*css for smartphone*/
+@media only screen and (max-with:768){
+	h1{
+		font-size:1.5em;	
+	}
+
+
+	}

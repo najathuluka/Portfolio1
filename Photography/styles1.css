@@ -1,0 +1,183 @@
+
+
+@import url( 'https://fonts.gooleapis.com/css2?family=montserrat:itale,wght@0,300;1,300;1600&display=swap'
+);
+
+
+body { height: auto;
+  background-color:white;
+}
+
+	h1 {
+  color:lightseagreen;
+  text-align:justify;
+}
+	header{
+	background-color:white;
+
+	font-family:cursive;}
+
+
+main{ background-color:white;
+
+	padding-left:30px;
+
+ padding-right: 30px;
+
+margin-left:170px;
+
+padding-top:10px;
+
+padding-bottom:20px;
+
+
+ }
+
+
+h1{ 
+	line-height:20%;
+
+	background-image:url(images/banner.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+	padding-left:50px;
+	height: 72px;
+	margin-bottom:auto;
+	
+}
+h2{ background-color: lavender;
+	
+	background-repeat:no-repeat;
+	background-position:right;
+	padding-left:50px;
+	height: 72px;
+	margin-bottom:auto;
+	
+}
+h3{ 
+	line-height:20px;
+
+	background-image:url(images/najathuluka.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+	padding-right: 600px;
+	height: 600px;
+	margin-bottom:auto;
+	
+} 
+
+
+body{ 
+	font-family:'montserrat',cursive;
+	font-size: 1em;
+}
+
+nav ul{
+	list-style-type: none;
+}
+nav li {
+	display: initial;
+}
+nav a {
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a link {color: purple;
+
+}
+nav a  visited {
+	color: pink;
+}
+nav a hover{ color:gray;
+
+}
+nav a  active{
+	color: black;
+
+}
+
+nav{
+	background-color:moccasin;}
+
+
+table{ border:1px,solid ;
+	width: 100%;
+	color: #3399cc;
+	border-collapse:collapse;
+	margin: auto;
+}
+
+td ,th { border:1px solid;
+	padding: 5px;
+	border: 1pxc;
+	color: #3399;
+	text-align:center;
+}
+
+tr,th{ 
+	background-color:lavender;
+
+}
+
+}
+
+label{
+	width: 8em;
+	padding-right: 1em;
+	float: left;
+}
+input,textarea{margin-bottom: 1em;
+	display: block;
+	margin-left: 10em;
+background-color: lightgray;
+}
+
+footer{ background-color:lavender;
+	font-size: 1em;
+	font-style:;
+    text-align: center;
+    
+   }
+
+
+
+
+
+
+
+
+
+
+
+	/*for Tablets*/
+@media only screen and ( max-with: 1024){
+	h1{
+		font-size: 2em ;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*css for smartphone*/
+@media only screen and (max-with:768){
+	h1{
+		font-size:1.5em;	
+	}
+
+
+	}
